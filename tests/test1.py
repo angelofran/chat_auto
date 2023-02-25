@@ -24,5 +24,5 @@ engine.stop()
 
 """Saving Voice to a file"""
 # On linux make sure that 'espeak' and 'ffmpeg' are installed
-engine.save_to_file('Hello World', 'test.mp3')
+engine.save_to_file('Hello World', 'src/test.mp3')
 engine.runAndWait()
