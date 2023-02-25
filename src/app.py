@@ -20,7 +20,11 @@ while True:
         temperature=1, 
     )
 
+
     response = conclusão.choices[0].text
+    with open("text.txt", 'r', encoding='utf-8') as arq:
+        
+
 
     print(f"Resposta: \t{response}.\n")
     print("-"*30)
